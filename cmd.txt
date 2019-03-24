@@ -1,8 +1,15 @@
-
+-taille
+	  du -h linux-3.11.2.tar.gz
 
 -Telecharger site jpeg
 	wget -r -np  -l1 -A.jpg http://www.allitebooks.com/
 
 -chercher 
 	-find . -type f -name "*.jpg"
+-tar(Archive) 
+	tar -cvf test.tar 03
+-gzip
+	gzip test.tar
+-
+
 
