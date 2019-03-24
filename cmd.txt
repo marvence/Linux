@@ -10,6 +10,8 @@
 	tar -cvf test.tar 03
 -gzip
 	gzip test.tar
--
+-grep -  awk
+	 lsblk |grep 'sda' |awk '{print $4}'
+
 
 
