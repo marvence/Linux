@@ -1,0 +1,8 @@
+
+
+-Telecharger site jpeg
+	wget -r -np  -l1 -A.jpg http://www.allitebooks.com/
+
+-chercher 
+	-find . -type f -name "*.jpg"
+
