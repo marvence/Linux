@@ -13,5 +13,8 @@
 -grep -  awk
 	 lsblk |grep 'sda' |awk '{print $4}'
 
+-mem
+	cat /proc/meminfo | grep 'MemTotal' | awk '{print $2}'
+
 
 
